@@ -1,0 +1,43 @@
+# Environnement virtuel
+soko/
+venv/
+env/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Base de données locale
+db.sqlite3
+
+# Fichiers de configuration sensibles
+*.env
+.env
+
+# Dossiers de migrations (optionnel si tu veux les regénérer)
+# **garde-les si tu veux partager les modèles**
+# */migrations/
+
+# Caches et logs
+*.log
+*.pot
+*.pyc
+*.swp
+*.bak
+*.tmp
+
+# Dossier des fichiers statiques générés
+staticfiles/
+media/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
